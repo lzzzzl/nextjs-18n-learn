@@ -15,6 +15,10 @@ const Page = async ({
       <Link href={`/${params.lng}/second-page`}>
         {t('to-second-page')}
       </Link>
+      <br />
+      <Link href={`/${params.lng}/client-page`}>
+        {t('to-client-page')}
+      </Link>
       <Footer lng={params.lng}/>
     </>
   );
